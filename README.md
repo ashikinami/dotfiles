@@ -10,4 +10,4 @@ Stuff Used:
 - Midnight Ocean for Spotify (using spicetify)
 
 [Empty Workspace]!(https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_02.png?raw=true)
-[Usually like this OwO!(https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_01.png?raw=true)
+[Usually like this OwO]!(https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_01.png?raw=true)
