@@ -9,5 +9,5 @@ Stuff Used:
 - powerline10k for zsh
 - Midnight Ocean for Spotify (using spicetify)
 
-[Empty Workspace]!(https://github.com/murphodinger/dotfiles/Screenshots/blob/main/Screenshots/rice1_02.jpg?raw=true)
-[Usually like this OwO!(https://github.com/murphodinger/dotfiles/Screenshots/blob/main/Screenshots/rice1_01.jpg?raw=true)
+[Empty Workspace]!(https://github.com/murphodinger/blob/main/dotfiles/Screenshots/rice1_02.jpg?raw=true)
+[Usually like this OwO!(https://github.com/murphodinger/blob/main/dotfiles/Screenshots/rice1_01.jpg?raw=true)
