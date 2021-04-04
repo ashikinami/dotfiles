@@ -1,6 +1,6 @@
 # dotfiles
 ### 4th April - 2021; 
-This is my first time ricing, pretty addictive stuff  
+This is my first time ricing, pretty addictive stuff :p  
 Stuff Used:
 - [ibhagwan's](https://github.com/ibhagwan/picom) fork of Picom
 - i3-gaps
@@ -9,5 +9,5 @@ Stuff Used:
 - powerline10k for zsh
 - Midnight Ocean for Spotify (using spicetify)
 
-[Empty Workspace]!(https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_02.png?raw=true)
-[Usually like this OwO]!(https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_01.png?raw=true)
+![Empty Workspace](https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_02.png?raw=true)
+![Usually like this OwO](https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_01.png?raw=true)
