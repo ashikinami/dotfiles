@@ -10,7 +10,8 @@ Stuff Used:
 - Spotify themed using [spicetify](https://github.com/khanhas/spicetify-cli) and [Midnight Ocean](https://github.com/morpheusthewhite/spicetify-themes/wiki/Themes-preview#Material-Ocean)
 - dunst for notifications
 - [polybar-spotify](https://github.com/Jvanrhijn/polybar-spotify) for displaying the name of the song in polybar
-- [orchis](https://github.com/vinceliuice/Orchis-theme) for gtk theme  
-
+- [orchis](https://github.com/vinceliuice/Orchis-theme) for gtk theme
+- [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen) for the lock screen  
+ 
 ![Empty Workspace](https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_02.png?raw=true)
 ![Usually like this OwO](https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_01.png?raw=true)
