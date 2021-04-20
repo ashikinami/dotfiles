@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/woeful_kafka'
+let g:netrw_dirhist_4='/home/woeful_kafka/.config/nvim'
+let g:netrw_dirhist_3='/home/woeful_kafka/.config/ranger'
+let g:netrw_dirhist_2='/home/woeful_kafka/.config/rofi'
+let g:netrw_dirhist_1='/home/woeful_kafka/.config/rofi/launchers'
+let g:netrw_dirhist_0='/home/woeful_kafka/.config/rofi'
+let g:netrw_dirhist_9='/home/woeful_kafka/.config/rofi/applets'
+let g:netrw_dirhist_8='/home/woeful_kafka/.config/rofi/applets/menu'
+let g:netrw_dirhist_7='/home/woeful_kafka/.config/rofi/applets'
+let g:netrw_dirhist_6='/home/woeful_kafka/.config/rofi'
