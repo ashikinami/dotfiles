@@ -12,6 +12,7 @@ Stuff Used:
 - [polybar-spotify](https://github.com/Jvanrhijn/polybar-spotify) for displaying the name of the song in polybar
 - [orchis](https://github.com/vinceliuice/Orchis-theme) for gtk theme
 - [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen) for the lock screen  
+- [Zathura](https://pwmt.org/projects/zathura/) for documents, plus a really cool nord color scheme
  
 ![Empty Workspace](https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_02.png?raw=true)
 ![Usually like this OwO](https://github.com/murphodinger/dotfiles/blob/main/Screenshots/rice1_03.png?raw=true)
