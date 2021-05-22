@@ -1,12 +1,25 @@
 swipe:
         4:
                 left:
-                        command: "xdotool key super+shift+p"
+                        workspace: 'next'
                 right:
-                        command: "xdotool key super+shift+g"
+                        workspace: 'prev'
         3:
                 right:
                         command: "xdotool key alt+Right"
                 left:
                         command: "xdotool key alt+Left"
+
+                        #pinch:
+                        #  in:
+                        #    command: "xdotool keydown ctrl click 4 keyup ctrl" # Zoom in
+                        #  out:
+                        #    command: "xdotool keydown ctrl click 5 keyup ctrl" # Zoom out
+                        #
+threshold:
+        pinch: 0.3
+
+interval:
+        pinch: 0.4
+        swipe: 0.75
 
