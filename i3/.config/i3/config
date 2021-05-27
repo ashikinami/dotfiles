@@ -184,8 +184,8 @@ bindsym $mod+r mode "resize"
 #}
 
 #Polybar
+exec_always --no-startup-id $HOME/.config/polybar/colorblocks/scripts/pywal.sh ~/Wallpapers/talk.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --colorblocks
-
 
 #Lock
 bindsym mod1+l exec betterlockscreen -l 
@@ -206,15 +206,15 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 #Wallpaper
-exec_always feh --bg-fill ~/Wallpapers/"Akashi.png"
+exec_always wal -i ~/Wallpapers/talk.png -n
+exec_always feh --bg-fill ~/Wallpapers/"Vagabond.jpg"
 
 #Touchpad Stuff - Id wrong here.. better to put in .xinitrc though?
 #exec_always xinput set-prop 13 317 1
 #exec_always xinput set-prop 13 297 1
 
 #Remove Window Name
-for_window [class="^.*"] border pixel 0 
-
+for_window [class="^.*"] border pixel 0
 
 #Set GAPS
 gaps inner 15
@@ -268,3 +268,22 @@ client.focused          #d9d9d9 #cecece #000000 #d9d9d9 #d9d9d9
 
 
 exec --no-startup-id udiskie -ans &
+
+
+# Set colors from Xresources
+# Change 'color7' and 'color2' to whatever colors you want i3 to use 
+# from the generated scheme.
+# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
+# it fails to get colors from Xresources.
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color2 #f0f0f0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg     $bg     $fg  $bg       $bg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+
+client.background       $bg
+
