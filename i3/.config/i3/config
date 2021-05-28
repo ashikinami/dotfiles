@@ -247,7 +247,7 @@ bindsym XF86PowerOff exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
 
 #Screenshots
 bindsym Print exec "maim ~/Pictures/$(date +%s).png"
-bindsym shift+Print exec "maim -s ~/Pictures/$(date +%s).png"
+bindsym $mod+shift+Print exec "maim -sf -u -o ~/Pictures/$(date +%s).png"
 bindsym $mod+shift+s exec "maim -s -o -u | xclip -selection clipboard -t image/png -i"
 exec_always xset dpms 240
 
@@ -266,9 +266,11 @@ client.focused          #d9d9d9 #cecece #000000 #d9d9d9 #d9d9d9
 
 #d9d9d9
 
-
+#mounting disks
 exec --no-startup-id udiskie -ans &
 
+#ranger
+bindsym $mod+shift+f exec alacritty -e ranger
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
