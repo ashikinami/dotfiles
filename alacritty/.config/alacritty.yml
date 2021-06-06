@@ -4,8 +4,8 @@ import:
 ##Alacritty:
 
 #
-#env:
-#  TERM: alacritty
+env:
+  TERM: alacritty
 #
 window:
  padding:

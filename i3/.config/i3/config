@@ -42,7 +42,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -269,8 +269,10 @@ client.focused          #d9d9d9 #cecece #000000 #d9d9d9 #d9d9d9
 #mounting disks
 exec --no-startup-id udiskie -ans &
 
+exec_always --no-startup-id setxkbmap -option ctrl:nocaps &
+exec_always --no-startup-id xcape -e 'Control_L=Escape' &
 #ranger
-bindsym $mod+shift+f exec alacritty -e ranger
+bindsym $mod+shift+f exec kitty -e ranger
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 

@@ -35,11 +35,23 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+#Finding the touchpad
 ID=$(xinput list --id-only 'SYNA7DB5:01 06CB:CD40 Touchpad')
 xinput set-prop $ID 'libinput Tapping Enabled' 1
 xinput set-prop $ID 'libinput Natural Scrolling Enabled' 1
+
+#Setting GTK Theme
 export QT_QPA_PLATFORMTHEME=gtk2
+
 fusuma & disown &
 dunst &
+caffeine &
+
+# make CapsLock behave like Ctrl:
+setxkbmap -option ctrl:nocaps &
+
+# make short-pressed Ctrl behave like Escape:
+xcape -e 'Control_L=Escape' &
+
 exec i3 
 
