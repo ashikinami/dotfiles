@@ -207,7 +207,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 #Wallpaper
 exec_always wal -i ~/Wallpapers/talk.png -n
-exec_always feh --bg-fill ~/Wallpapers/"Vagabond.jpg"
+exec_always feh --bg-fill ~/Wallpapers/"talk.png"
 
 #Touchpad Stuff - Id wrong here.. better to put in .xinitrc though?
 #exec_always xinput set-prop 13 317 1
@@ -222,7 +222,8 @@ gaps bottom 40
 gaps horizontal 10
 
 #Window Compositor; Experimental Backends to prevent screen tearing
-exec_always picom -f --experimental-backends
+exec_always picom 
+#-f --experimental-backends
 
 #gaps
 smart_borders on
