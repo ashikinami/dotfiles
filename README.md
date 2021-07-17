@@ -15,4 +15,4 @@ Stuff Used:
 - [Zathura](https://pwmt.org/projects/zathura/) for documents, plus a really cool nord color scheme (color schemes from [base16-zathura](https://github.com/HaoZeke/base16-zathura))
  
 ![Empty Workspace](https://github.com/murphodinger/dotfiles/blob/master/Screenshots/rice1_02.png?raw=true)
-![Usually like this OwO](https://github.com/murphodinger/dotfiles/master/master/Screenshots/rice1_03.png?raw=true)
+![Usually like this OwO](https://github.com/murphodinger/dotfiles/blob/master/Screenshots/rice1_03.png?raw=true)
