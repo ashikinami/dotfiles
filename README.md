@@ -1,4 +1,5 @@
 # dotfiles
+### 4th July - 2021
 ### 4th April - 2021; 
 This is my first time ricing, pretty addictive stuff :p  
 Stuff Used:
