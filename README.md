@@ -11,6 +11,8 @@ Stuff Used:
 - ranger
 - [kitty](https://github.com/kovidgoyal/kitty) as the terminal! (Ligatures are amazing)
 
+![1](https://github.com/ashikinami/dotfiles/blob/master/asuka/Screenshots/1.png)
+![2](https://github.com/ashikinami/dotfiles/blob/master/asuka/Screenshots/2.png)
 
 ### Akashi
 #### 4th April - 2021; 
