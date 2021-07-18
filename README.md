@@ -1,11 +1,16 @@
 # dotfiles
 ### Asuka
 #### 4th July - 2021;
-Major changes! Switched to bspwm, offers great modularity!
+Major changes! Switched to bspwm, offers great modularity! 
 Stuff Used:
 - [ibhagwan's](https://github.com/ibhagwan/picom) fork of Picom
 - pure for zsh
 - Zathura for documents
+- [whitesur](https://github.com/vinceliuice/WhiteSur-gtk-theme) for gtk theme
+- Polybar modified and adapted from these [dotfiles](https://github.com/FhilipeCrash/Dotfiles)
+- ranger
+- [kitty](https://github.com/kovidgoyal/kitty) as the terminal! (Ligatures are amazing)
+
 
 ### Akashi
 #### 4th April - 2021; 
