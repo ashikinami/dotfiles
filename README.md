@@ -1,6 +1,6 @@
 # dotfiles
 ### Asuka
-4th July - 2021;  
+##### 4th July - 2021
 Major changes! Switched to bspwm, offers great modularity!  
 Stuff Used:
 - [ibhagwan's](https://github.com/ibhagwan/picom) fork of Picom
@@ -15,7 +15,7 @@ Stuff Used:
 ![2](https://github.com/ashikinami/dotfiles/blob/master/asuka/Screenshots/2.png)
 
 ### Akashi
-##### 4th April - 2021; 
+##### 4th April - 2021
 This is my first time ricing, pretty addictive stuff :p  
 Stuff Used:
 - [ibhagwan's](https://github.com/ibhagwan/picom) fork of Picom
