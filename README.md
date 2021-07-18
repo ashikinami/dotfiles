@@ -1,7 +1,7 @@
 # dotfiles
 ### Asuka
-##### 4th July - 2021;
-Major changes! Switched to bspwm, offers great modularity! 
+4th July - 2021;  
+Major changes! Switched to bspwm, offers great modularity!  
 Stuff Used:
 - [ibhagwan's](https://github.com/ibhagwan/picom) fork of Picom
 - pure for zsh
